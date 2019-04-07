@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1511918858 source:c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<sstream>
+	<cstdlib>
+	"jitTest.h"
+	"njitTest.h"
+
+1511919537 c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\jittest.h
+	<string>
+
+1511919767 source:c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\jittest.cpp
+	"jitTest.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<ctime>
+
+1510105578 source:c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\cabletest.cpp
+	"cableTest.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1510106057 c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\cabletest.h
+	<string>
+
+1511919628 c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\njittest.h
+	<string>
+
+1511919768 source:c:\users\nuno_\documents\projecto_mecalbi\projecto_mecalbi\njittest.cpp
+	"njitTest.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<ctime>
+

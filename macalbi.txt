@@ -1,0 +1,33 @@
+JIT
+1º - testar splices até atingir os 1000 por combinação (por turno ou total, caso seja total porque é que no pdf diz que a cada inicio 
+de turno faz se reset ao counter da maquina e no fim imprime o report).
+2º - quando faz os 1000 testes (começa o turno o empregado seleciona fazer 5 testes, testa 5 splices depois sai uma etiqueta com a informação,
+no final do turno faz o mesmo.)
+
+que tenho feito:
+CONTRUTOR:
+	jitTest(int amostra);construtor com parametro tamanho da amostra inicial.
+SETS:
+	void setShift(string shift);parametro com o nome do shift para o definir.
+	void setOperatorNumber(string operatorNumber); parametro com o numero do operador para o definir.
+
+GETS:
+	string getShift(); retorna shift.
+	string getOperatorNumber(); retorna operador.
+	int getPartialCounter(); retorna partial counter.
+	int getTotalCounter(); retorna total counter.
+	int getTotalQtyIO(); retorna total qty io.
+	int getTotalQtyNIO(); retorna total qty nio.
+	int getOperatorQtyIO(); retorna qty io do operador.
+	int getOperatorQtyNIO(); retorna qty nio do operador.
+
+METODOS:
+	void changeShift(string shift); mudar de turno com parametro com o nome do shift.
+	void changeOperatorNumber(string operatorNumber); mudar o operador com o parametro com o nome do operador.
+	void cableTest(int input, bool option, bool option1); metodo que regista o teste ao cabo com parametro da combinação e parametro dos testes
+splice teste e bobble test. este metodo é o que define quando já foi atingida a amostra necessaria para se passar so small test.
+	bool lookingNoData(); verifica se existe data guardada no ficheiro. caso exista define as variaveis com a data correspondente.
+ 	bool bubbleTest(bool option); retorna o resultado do bubble test.
+    	bool spliceTest(bool option1); retorna o resultado do splicetest.
+	void printChangeOperator(); faz a impressao da etiqueta do operador.
+    	void printFiveOutOfFive(); faz a impressao da etiqueta dos testes durante a produção small testes.

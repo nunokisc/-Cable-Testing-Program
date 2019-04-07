@@ -1,0 +1,82 @@
+set shift PRIMEIRO
+set Operator op1
+set Cable ref123
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+change Cable ref1234
+change Operator op2
+-----------------------------------
+PRINTED LABEL - Operator
+Date/Time: Wed Nov 22 18:57:27 2017
+OperatorNumber: op1
+Total of test: 10/10
+QTY NIO: 9
+QTY IO: 1
+-----------------------------------
+Test cable
+Jß foi atingida a amostra
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+-----------------------------------
+PRINTED LABEL - FiveOutOfFive
+Date/Time: Wed Nov 22 18:57:27 2017
+TESTE NIO
+QTY NIO: 5
+QTY IO: 0
+-----------------------------------
+Test cable
+Jß foi atingida a amostra
+Test cable
+Test cable
+Test cable
+change shift SEGUNDO
+-----------------------------------
+PRINTED LABEL - Operator
+Date/Time: Wed Nov 22 18:57:27 2017
+OperatorNumber: op2
+Total of test: 9/19
+QTY NIO: 8
+QTY IO: 1
+-----------------------------------
+change Operator op3
+change Cable ref12345
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Test cable
+Jß foi atingida a amostra
+Test cable
+Test cable
+Test cable
+Test cable
+change Operator op4
+-----------------------------------
+PRINTED LABEL - Operator
+Date/Time: Wed Nov 22 18:57:27 2017
+OperatorNumber: op3
+Total of test: 10/10
+QTY NIO: 7
+QTY IO: 3
+-----------------------------------
+Shift: segundo
+Operator: op4
+Partial: 10
+Total: 1
+Total NIO: 24
+Total IO: 5
+
+Process returned 0 (0x0)   execution time : 0.031 s
+Press any key to continue.
